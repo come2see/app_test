@@ -1,0 +1,26 @@
+app:
+  name: Space24 点心算
+  slogan: 二十四点心算竞速，限时答题挑战你的运算直觉
+  description: Space24 是一款面向空间计算设备的心算竞速游戏。在限时内运用加、减、乘、除把四张牌凑成 24，支持提示、重置与死局判定，答对立体字模即刻迸发反馈。适合碎片化时间随手开一局，锻炼数字直觉与运算速度。
+  tags: [ 益智, 休闲, 心算 ]
+  category: game
+  icon: assets/icon.png
+  landscape: assets/landscape.png
+  detail_images:
+    - assets/detail-1.png
+    - assets/detail-2.png
+    - assets/detail-3.png
+    - assets/detail-4.png
+  videos: []
+version:
+  name: 1.0.0
+  notes: 首个测试版本，用于验证 VibeLab 发布命令链路（init/add/commit/push/state）。
+build:
+  repo_url: https://github.com/come2see/app_test
+  repo_visibility: public
+  tech_stack: android_spatial
+  ai_tool: Trae CLI
+  ai_model: doubao-seed
+  features:
+    - controller_support
+  teammates: []
